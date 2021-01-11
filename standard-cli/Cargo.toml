@@ -1,0 +1,13 @@
+[package]
+name = "standard"
+version = "0.1.0"
+authors = ["Paul Sastrasinh <psastras@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "std"
+path = "src/main.rs"
+
+[dependencies]
+log = "0.3.6"
+clap = "3.0.0-beta.2"
